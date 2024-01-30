@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b79fd747-b324-46d2-812d-a8206f6a3582" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/actions/block.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/follow.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/ingress.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/stream.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/token.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(browse)/[username]/_components/actions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(browse)/[username]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(browse)/_components/sidebar/following.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/(home)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/_components/navbar/actions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/_components/navbar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/_components/navbar/logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/_components/sidebar/container.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/_components/sidebar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/_components/sidebar/nav-item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/_components/sidebar/navigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/_components/sidebar/toggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/_components/sidebar/wrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/chat/_components/toggle-card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/chat/loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/chat/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/keys/_components/connect-modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/keys/_components/copy-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/keys/_components/key-card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/keys/_components/url-card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/keys/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(dashboard)/u/[username]/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/webhooks/livekit/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stream-player/chat-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stream-player/chat-header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stream-player/chat-info.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stream-player/chat-list.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stream-player/chat-message.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stream-player/chat-toggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stream-player/chat.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stream-player/fullscreen-control.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stream-player/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stream-player/live-video.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stream-player/loading-video.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stream-player/offline-video.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stream-player/variant-toggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stream-player/video.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/stream-player/volume-control.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/use-viewer-token.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/block-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/follow-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/stream-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/user-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/use-chat-sidebar.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/use-creator-sidebar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(browse)/_components/sidebar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(browse)/_components/sidebar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(browse)/_components/sidebar/recommended.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(browse)/_components/sidebar/recommended.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(browse)/_components/sidebar/user-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(browse)/_components/sidebar/user-item.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(browse)/_components/sidebar/wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(browse)/_components/sidebar/wrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/webhooks/clerk/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/webhooks/clerk/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/auth-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/auth-service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/recommended-service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/recommended-service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2anEMcslOHesU5YhCk19DekZqRy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/project_web/streaming-app/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;E:\\project_web\\streaming-app&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\project_web\\streaming-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project_web\streaming-app\app" />
+      <recent name="E:\project_web\streaming-app\app\(browse)\[username]" />
+      <recent name="E:\project_web\streaming-app\app\(dashboard)" />
+      <recent name="E:\project_web\streaming-app" />
+      <recent name="E:\project_web\streaming-app\app\api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project_web\streaming-app\app\(browse)" />
+      <recent name="E:\project_web\streaming-app\components\stream-player" />
+      <recent name="E:\project_web\streaming-app\app\(browse)\(home)" />
+      <recent name="E:\project_web\streaming-app\app\(auth)" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b79fd747-b324-46d2-812d-a8206f6a3582" name="Changes" comment="" />
+      <created>1704945896986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704945896986</updated>
+      <workItem from="1704945898222" duration="2059000" />
+      <workItem from="1704961332531" duration="3223000" />
+      <workItem from="1704973897704" duration="1000" />
+      <workItem from="1705067476626" duration="83000" />
+      <workItem from="1705405947080" duration="25000" />
+      <workItem from="1705405979736" duration="6710000" />
+      <workItem from="1705459382568" duration="9440000" />
+      <workItem from="1705548084543" duration="4254000" />
+      <workItem from="1705568340148" duration="3915000" />
+      <workItem from="1705581295233" duration="144000" />
+      <workItem from="1705581581953" duration="145000" />
+      <workItem from="1705632812091" duration="6815000" />
+      <workItem from="1705640309349" duration="656000" />
+      <workItem from="1705716389147" duration="8207000" />
+      <workItem from="1705725754929" duration="1645000" />
+      <workItem from="1705749159879" duration="9232000" />
+      <workItem from="1705799887914" duration="9365000" />
+      <workItem from="1705892750265" duration="849000" />
+      <workItem from="1705911767630" duration="2105000" />
+      <workItem from="1705915076423" duration="4228000" />
+      <workItem from="1705919760425" duration="75000" />
+      <workItem from="1705928493310" duration="2354000" />
+      <workItem from="1705976477799" duration="1267000" />
+      <workItem from="1706003822105" duration="354000" />
+      <workItem from="1706004413358" duration="887000" />
+      <workItem from="1706153791800" duration="59000" />
+      <workItem from="1706153858508" duration="176000" />
+      <workItem from="1706154044958" duration="1203000" />
+      <workItem from="1706172254894" duration="3679000" />
+      <workItem from="1706180074943" duration="371000" />
+      <workItem from="1706239332905" duration="3112000" />
+      <workItem from="1706256270189" duration="88000" />
+      <workItem from="1706259769148" duration="727000" />
+      <workItem from="1706325553432" duration="5001000" />
+      <workItem from="1706518199061" duration="4574000" />
+      <workItem from="1706585492518" duration="7197000" />
+      <workItem from="1706603847389" duration="6240000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/tailwind.config.js" />
+      </list>
+    </option>
+  </component>
+</project>
