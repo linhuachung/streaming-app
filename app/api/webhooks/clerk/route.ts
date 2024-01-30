@@ -8,7 +8,7 @@ import { resetIngresses } from '@/actions/ingress'
 export async function POST(req: Request) {
   // You can find this in the Clerk Dashboard -> Webhooks -> choose the webhook
   const WEBHOOK_SECRET = process.env.CLERK_WEBHOOK_SECRET
- 
+
   if (!WEBHOOK_SECRET) {
     throw new Error('Please add CLERK_WEBHOOK_SECRET from Clerk Dashboard to .env or .env.local')
   }
@@ -77,7 +77,7 @@ export async function POST(req: Request) {
       },
     });
   }
- 
+
   if (eventType === "user.deleted") {
     await resetIngresses(payload.data.id);
 
@@ -87,6 +87,6 @@ export async function POST(req: Request) {
       },
     });
   }
- 
+
   return new Response('', { status: 200 })
 };
